@@ -156,6 +156,17 @@ The ESP32 firmware configures the inputs using:
 pinMode(pin, INPUT_PULLUP);
 ```
 
+### Note: In case ESP32 cannot connect to Wi-Fi 
+
+Check the following:
+
+1. Confirm the SSID and password are correct.
+2. Confirm the Wi-Fi network provides **2.4 GHz**.
+3. Do not use a **5 GHz-only** SSID.
+4. Check the Serial Monitor for the ESP32 connection status.
+5. Confirm the ESP32 is within Wi-Fi range.
+
+
 ## Relay dry-contact wiring
 
 For each relay input:
